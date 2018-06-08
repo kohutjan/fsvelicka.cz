@@ -1,0 +1,37 @@
+.bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+  width: 100%;
+}
+
+.hdl {
+  font-family: 'Alegreya Sans SC',monospace;
+  font-size: 400%;
+  color: black;
+}
+
+.desc {
+  font-size:120%;
+  color: black;
+}
+
+.showimg, .card-header {
+    cursor: pointer;
+}
+
+.contact-container {
+	font-size:130%;
+	color: black;
+}
+
+html, body {
+  height: 100%;
+  margin: 0
+}
+
+.anchor {
+  display: block;
+  height: 88px; /*same height as header*/
+  margin-top: -88px; /*same height as header*/
+  visibility: hidden;
+}

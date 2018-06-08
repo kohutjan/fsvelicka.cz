@@ -1,0 +1,15 @@
+.gallery-img {
+	outline: 1px solid white;
+}
+
+@media screen and (min-width: 600px) {
+	.gallery-img {
+		outline: 2px solid white;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.gallery-img {
+		outline: 3px solid white;
+	}
+}

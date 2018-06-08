@@ -1,0 +1,22 @@
+.card > .card-header {
+  background-color: white;
+}
+
+.card-header {
+  font-family: 'Courgette',monospace;
+  font-size: 170%;
+  color: black;
+}
+
+.card .card-body a {
+  color: black;
+  text-decoration: none !important
+}
+
+.card .card-body strong {
+  font-size: 120%;
+}
+
+.card .card-body a:hover {
+  color: #989898;
+}
