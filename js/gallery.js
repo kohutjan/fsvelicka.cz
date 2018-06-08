@@ -29,7 +29,6 @@ $.ajax({
       var row = this;
       var smallestImgHeight = getSmallestHeight($(row).children());
       var finalImgsWidth = getFinalImgsWidth(row, $(row).children(), smallestImgHeight);
-      console.log(smallestImgHeight, finalImgsWidth);
       $('.gallery-container').append('<div class="gallery-row d-flex flex-row"></div>');
       var rowHTML = "";
       for (var i = 0; i < finalImgsWidth.length; ++i)
