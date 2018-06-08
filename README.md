@@ -80,7 +80,59 @@ Example:
 </event>
 ```
 
-If any field doesn't have a value, leave it empty (typically website or image). Names have to be specified, otherwise nothing will be shown on particular language page. Store images of events to events folder and link them as events/image_name.jpg. The latest event is on the top.  
+If any field doesn't have a value, leave it empty (typically website or image). Names have to be specified, otherwise nothing will be shown on particular language page. Store images of events to events folder and link them as events/image_name.jpg. The latest event is on the top of the file.  
 
 
 ## Gallery
+
+Gallery consists of rows of images. 
+
+How to add row of images to gallery
+
+Row of images can be added through gallery/gallery.xml file. 
+
+The XML format of row is as follows:
+
+```xml
+<row>
+  <image>
+    <path>Link to the first image from the left</path>
+    <width>Original width of the image</width>
+    <height>Original height of the image</height>
+  </image>
+  <image>
+    <path>Link to the second image from the left</path>
+    <width>Original width of the image</width>
+    <height>Original height of the image</height>
+  </image>
+  <image>
+    <path>Link to the nth image from the left</path>
+    <width>Original width of the image</width>
+    <height>Original height of the image</height>
+  </image>
+</row>
+```
+
+Example: 
+
+```xml
+<row>
+  <image>
+    <path>gallery/chorovod.jpg</path>
+    <width>1350</width>
+    <height>1800</height>
+  </image>
+  <image>
+    <path>gallery/ana.jpg</path>
+    <width>2313</width>
+    <height>3083</height>
+  </image>
+  <image>
+    <path>gallery/dan.jpg</path>
+    <width>1333</width>
+    <height>2000</height>
+  </image>
+</row>
+```
+
+The original width and height has to be specified exactly, otherwise there will be white gaps between images due to bad scaling. No need to scale or crop images. Store images to gallery folder and link them as gallery/image_name.jpg. The first row is on the top of the file. 
