@@ -21,7 +21,6 @@ switch(lang)
 $('.events > strong').html(headline);
 
 //Parse events.xml and create HTML events using Bootstrap Card
-var xmlString = "";
 $.ajax({
   url: "events/events.xml",
   type: 'get',
@@ -137,7 +136,6 @@ $.ajax({
       imgs.each(function ()
       {
         $(this).attr('src', $(this).attr('data-src'));
-        console.log("hoj");
       });
     });
   }
@@ -212,7 +210,7 @@ function getCalendar(date)
   var month = Number(date.find('month').text());
   var year = Number(date.find('year').text());
   var now = new Date();
-  var eventDate = new Date(year, month, day);
+  var eventDate = new Date(year, month - 1, day);
   if (now > eventDate)
   {
     return ["fa-calendar-check", "black"];
