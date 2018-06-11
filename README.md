@@ -4,7 +4,7 @@
 
 How to change description in particular language
 
-There are two columns on the page. First column can be changed in folder about_us/lang/first_col.html, the second in about_us/lang/second_col.html. Formatting can be done through HTML. The two columns are merged on mobile devices to one, the first is on the top. 
+There are two columns on the page. First column can be changed through file about_us/lang/first_col.html, the second through about_us/lang/second_col.html. Formatting can be done through HTML. The two columns are merged on mobile devices to one, the first is on the top. 
 
 ## Events
 
@@ -136,3 +136,14 @@ Example:
 ```
 
 The original width and height has to be specified exactly, otherwise there will be white gaps between images due to bad scaling. No need to scale or crop images. Store images to gallery folder and link them as gallery/image_name.jpg. The first row is on the top of the file. 
+
+## Frameworks
+
+[Bootstrap, v4.1.1](https://getbootstrap.com)
+<br>
+[jQuery, v3.3.1](https://jquery.com)
+<br>
+[jQuery Lazy, v1.7.9](http://jquery.eisbehr.de/lazy/)
+<br>
+[Blueimp, v2.33.0](https://blueimp.github.io/Gallery/)
+
