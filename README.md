@@ -139,5 +139,8 @@ The original width and height has to be specified exactly, otherwise there will 
 
 ## Frameworks
 
-[Bootstrap v4.1.1](https://getbootstrap.com)
+[Bootstrap, v4.1.1](https://getbootstrap.com)
+[jQuery, v3.3.1](https://jquery.com)
+[jQuery Lazy, v1.7.9](http://jquery.eisbehr.de/lazy/)
+[Blueimp, v2.33.0](https://blueimp.github.io/Gallery/)
 
