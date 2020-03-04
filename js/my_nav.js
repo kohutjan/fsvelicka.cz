@@ -1,4 +1,4 @@
-//Hide collapse navbar manu after click 
+//Hide collapse navbar manu after click
 $(".navbar-nav li a").click(function(event) {
     if (!$(this).parent().hasClass('dropdown'))
         $(".navbar-collapse").collapse('hide');
@@ -25,7 +25,7 @@ switch(lang)
       langDropHrefs = ["en", "de", "fr"];
       break;
     case "en":
-      headline = "Folk group Velička";
+      headline = "Folklore group Velička";
       aboutUs = "About us";
       events = "Events";
       gallery = "Gallery";

@@ -1,7 +1,7 @@
 var images = ['lenka.jpg', 'kaja.jpg', 'lidka.jpg', 'daniela.jpg'];
 var image_index = Math.floor(Math.random() * images.length);
 var bg_height = $(window).height() - $('nav').outerHeight();
-$('.bg').css({'background-image': 'url(gallery/' + images[image_index] + ')'});
+$('.bg').css({'background-image': 'url(gallery/entry/' + images[image_index] + ')'});
 $('.bg').css({'height' : bg_height + 'px'});
 $('.bg').css({'margin-top' : $('nav').outerHeight() + 'px'});
 switch(image_index) {

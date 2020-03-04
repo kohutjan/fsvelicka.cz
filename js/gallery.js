@@ -22,6 +22,7 @@ $('.gallery > strong').html(headline);
 $.ajax({
   url: "gallery/gallery.xml",
   type: 'get',
+  async: false,
   dataType: 'xml',
   success: function(xml)
   {

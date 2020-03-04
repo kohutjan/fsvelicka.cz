@@ -4,13 +4,13 @@
 
 How to change description in particular language
 
-There are two columns on the page. First column can be changed through file about_us/lang/first_col.html, the second through about_us/lang/second_col.html. Formatting can be done through HTML. The two columns are merged on mobile devices to one, the first is on the top. 
+There are two columns on the page. First column can be changed through file about_us/lang/first_col.html, the second through about_us/lang/second_col.html. Formatting can be done through HTML. The two columns are merged on mobile devices to one, the first is on the top.
 
 ## Events
 
 How to add event
 
-Event can be added through events/evenst.xml file. 
+Event can be added through events/evenst.xml file.
 
 The XML format of event is as follows:
 
@@ -85,11 +85,11 @@ If any field doesn't have a value, leave it empty (typically website or image). 
 
 ## Gallery
 
-Gallery consists of rows of images. 
+Gallery consists of rows of images.
 
 How to add row of images to gallery
 
-Row of images can be added through gallery/gallery.xml file. 
+Row of images can be added through gallery/gallery.xml file.
 
 The XML format of row is as follows:
 
@@ -113,7 +113,7 @@ The XML format of row is as follows:
 </row>
 ```
 
-Example: 
+Example:
 
 ```xml
 <row>
@@ -135,15 +135,14 @@ Example:
 </row>
 ```
 
-The original width and height has to be specified exactly, otherwise there will be white gaps between images due to bad scaling. No need to scale or crop images. Store images to gallery folder and link them as gallery/image_name.jpg. The first row is on the top of the file. 
+The original width and height has to be specified exactly, otherwise there will be white gaps between images due to bad scaling. No need to scale or crop images. Store images to gallery folder and link them as gallery/image_name.jpg. The first row is on the top of the file.
 
 ## Frameworks
 
-[Bootstrap, v4.1.1](https://getbootstrap.com)
+[Bootstrap, v4.4.1](https://getbootstrap.com)
 <br>
-[jQuery, v3.3.1](https://jquery.com)
+[jQuery, v3.4.1](https://jquery.com)
 <br>
 [jQuery Lazy, v1.7.9](http://jquery.eisbehr.de/lazy/)
 <br>
-[Blueimp, v2.33.0](https://blueimp.github.io/Gallery/)
-
+[Blueimp, v2.36.0](https://blueimp.github.io/Gallery/)

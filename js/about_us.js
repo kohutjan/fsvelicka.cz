@@ -19,6 +19,9 @@ switch(lang)
       break;
 }
 
+$('.carousel-desc-1').attr("src", "about_us/carousel/cz/1.jpg");
+$('.carousel-desc-2').attr("src", "about_us/carousel/cz/2.jpg");
+$('.carousel-desc-3').attr("src", "about_us/carousel/cz/3.jpg");
 $('.about-us > strong').html(headline);
 $('.about-us-first-col').load("about_us/desc/" + lang + "/first_col.html");
 $('.about-us-second-col').load("about_us/desc/" + lang + "/second_col.html");
